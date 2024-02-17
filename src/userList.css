@@ -1,5 +1,3 @@
-/* userList.css */
-
 .user-list-container {
   padding: 20px;
 }
@@ -32,8 +30,9 @@
 }
 
 .user-details {
-  display: block;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1000px;
 }
 
 .last-name, .first-name, .username {
